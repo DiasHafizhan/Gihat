@@ -90,14 +90,135 @@ export const rekomendasi = [
     },
     {
         id: 4,
-        img: "./public/rekomendasi1.png",
-        title: "Sayuran",
+        img: "./public/rekomendasi5.png",
+        title: "Air Mineral",
         item : "165 Products"
     },
     {
         id: 5,
-        img: "./public/rekomendasi1.png",
-        title: "Sayuran",
+        img: "./public/rekomendasi6.png",
+        title: "Karbohidrat",
         item : "165 Products"
+    }
+]
+
+export const cardRekomendasi = [
+    {
+        id: 1,
+        img: "./public/rekomendasi4.png",
+        item: "Buah-buahan",
+        desc: "Lorem ipsum dolor sit amet, consec adipisicing elit.",
+        link: "Read more"
+    },
+    {
+        id: 2,
+        img: "./public/rekomendasi4.png",
+        item: "Buah-buahan",
+        desc: "Lorem ipsum dolor sit amet, consec adipisicing elit.",
+        link: "Read more"
+    },
+    {
+        id: 3,
+        img: "./public/rekomendasi4.png",
+        item: "Buah-buahan",
+        desc: "Lorem ipsum dolor sit amet, consec adipisicing elit.",
+        link: "Read more"
+    },
+    {
+        id: 4,
+        img: "./public/rekomendasi4.png",
+        item: "Buah-buahan",
+        desc: "Lorem ipsum dolor sit amet, consec adipisicing elit.",
+        link: "Read more"
+    },
+    {
+        id: 5,
+        img: "./public/rekomendasi4.png",
+        item: "Buah-buahan",
+        desc: "Lorem ipsum dolor sit amet, consec adipisicing elit.",
+        link: "Read more"
+    },
+    {
+        id: 6,
+        img: "./public/rekomendasi4.png",
+        item: "Buah-buahan",
+        desc: "Lorem ipsum dolor sit amet, consec adipisicing elit.",
+        link: "Read more"
+    },
+    {
+        id: 7,
+        img: "./public/rekomendasi4.png",
+        item: "Buah-buahan",
+        desc: "Lorem ipsum dolor sit amet, consec adipisicing elit.",
+        link: "Read more"
+    },
+    {
+        id: 8,
+        img: "./public/rekomendasi4.png",
+        item: "Buah-buahan",
+        desc: "Lorem ipsum dolor sit amet, consec adipisicing elit.",
+        link: "Read more"
+    },
+    {
+        id: 9,
+        img: "./public/rekomendasi4.png",
+        item: "Buah-buahan",
+        desc: "Lorem ipsum dolor sit amet, consec adipisicing elit.",
+        link: "Read more"
+    },
+    {
+        id: 10,
+        img: "./public/rekomendasi4.png",
+        item: "Buah-buahan",
+        desc: "Lorem ipsum dolor sit amet, consec adipisicing elit.",
+        link: "Read more"
+    },
+]
+
+export const ringkasan = [
+    {
+        id: 1,
+        img: "./public/ringkasan1.png",
+        title: "Energi",
+        desc: "108 kkal"
+    },
+    {
+        id: 2,
+        img: "./public/rekomendasi3.png",
+        title: "Protein",
+        desc: "1 g"
+    },
+    {
+        id: 3,
+        img: "./public/ringkasan2.png",
+        title: "Lemak",
+        desc: "0.8 g"
+    },
+    {
+        id: 4,
+        img: "./public/ringkasan3.png",
+        title: "Karbo",
+        desc: "24.80 g"
+    },
+]
+
+export const giziUnggulan = [
+    {
+        id: 1,
+        no: 1,
+        persen: "25%",
+        title: "Tembaga"
+    },
+    {
+        id: 2,
+        no: 2,
+        persen: "25%",
+        title: "Vitamin B2"
+    },
+    {
+        id: 3,
+        no: 3,
+        persen: "25%",
+        title: "Vitamin C"
     }
 ]

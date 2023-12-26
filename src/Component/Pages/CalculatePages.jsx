@@ -1,7 +1,10 @@
 import InputForm from "../Element/Input"
 import { user } from "../data"
+import { useNavigate } from "react-router-dom"
 
 const CalculatePages = () => {
+  const navigate = useNavigate()
+
   return (
     <>
       <div className=" w-9/12 mx-auto">
@@ -45,7 +48,10 @@ const CalculatePages = () => {
               </option>
             </select>
           </div>
-          <button className="py-3 px-5 rounded-3xl bg-btn text-white mx-auto mt-5">
+          <button
+            className="py-3 px-5 rounded-3xl bg-btn text-white mx-auto mt-5"
+            onClick={() => navigate('/hasil')}
+            >
             Calculate
           </button>
         </form>

@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom"
 import { rekomendasi } from "../data"
 
 const HasilPages = () => {
+  const navigate = useNavigate()
+
   return (
     <div className="w-9/12 mx-auto">
       <div className=" w-8/12 mx-auto bg-navbar mt-5 text-white p-5 rounded-lg">
@@ -27,11 +30,11 @@ const HasilPages = () => {
           Rekomendai Makanan
         </h2>
 
-        <div className="w-12/12 gap-5 mx-auto flex mb-16">
+        <div className="w-12/12 gap-5 mx-auto flex mb-16 cursor-pointer" onClick={() => navigate("/rekomendasi")}>
           {rekomendasi.map((data) => {
             return (
               <div key={data.id} className="w-1/5 bg-white shadow-lg rounded-lg p-5 text-center">
-                <img src={data.img} alt="" className="mx-auto mb-2" />
+                <img src={data.img} alt="" className="mx-auto mb-2 w-[75px]" />
                 <h3 className="text-xl mb-2">
                   {data.title}
                 </h3>
